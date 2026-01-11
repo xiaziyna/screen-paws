@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/screen_pause/__init__.py
+src/screen_pause/__main__.py
+src/screen_pause/app.py
+src/screen_pause/utils.py
+src/screen_pause.egg-info/PKG-INFO
+src/screen_pause.egg-info/SOURCES.txt
+src/screen_pause.egg-info/dependency_links.txt
+src/screen_pause.egg-info/entry_points.txt
+src/screen_pause.egg-info/requires.txt
+src/screen_pause.egg-info/top_level.txt

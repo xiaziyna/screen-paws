@@ -1,3 +1,12 @@
+Metadata-Version: 2.4
+Name: screen-pause
+Version: 0.1.0
+Summary: Pause a part of the screen and drag it around.
+Author-email: Jamila Taaki <xiaziyna@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pillow>=12.0.0
+
 # Screen Pause
 
 Pause a region of the screen and drag the frozen image around—no desktop hotkey scripting required.
@@ -5,6 +14,8 @@ Pause a region of the screen and drag the frozen image around—no desktop hotke
 ## Install (editable for demo)
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 pip install -e .
 ```
 
