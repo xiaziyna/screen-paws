@@ -1,2 +1,0 @@
-[console_scripts]
-screen-pause = screen_pause.app:main
