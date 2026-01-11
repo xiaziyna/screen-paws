@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "screen-pause"  # Your package name (no spaces/hyphens)
+version = "0.1.0"          # Start simple; bump as needed
+authors = [{ name = "Jamila Taaki", email = "xiaziyna@gmail.com" }]
+description = "Pause a part of the screen and drag it around."  # Brief overview
+readme = "README.md"       # Links to your README
+requires-python = ">=3.8"  # Adjust for your needs
+dependencies = [  # Replaces or supplements requirements.txt
+    "pillow>=12.0.0",
+]  # List as strings; supports version specs
+
+[project.scripts]
+screen-pause = "screen_pause.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]            # Points to your code folder
